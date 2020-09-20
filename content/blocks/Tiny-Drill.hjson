@@ -1,0 +1,16 @@
+name: Tiny Mechanical Drill
+description: A very tiny drill.
+type: Drill
+size: 1
+tier: 2
+drillTime: 450
+  liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+  }
+requirements: [
+  copper/5
+]
+category: production
+research: mechanical-drill
