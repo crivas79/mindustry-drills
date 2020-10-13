@@ -1,0 +1,13 @@
+name: tiny Vault
+description: A tiny storage space.
+type: Vault
+itemCapacity: 100
+hasItems: true
+health: 100
+size: 1
+requirements: [
+copper/25
+lead/25
+]
+category: effect
+research: vault

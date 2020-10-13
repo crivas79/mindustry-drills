@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: large silicon smelter
+description: smelts silicon faster than the original and outputs more.
+liquidCapacity: 20
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      sand/4
+      coal/2
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: .5
+  }
+}
+requirements: [
+  titanium/50
+  silicon/60
+]
+category: crafting
+research: silicon-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silicon/4

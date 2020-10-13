@@ -1,0 +1,6 @@
+name: "simple mod"
+displayName: "[blue]simple[orange] Mod" //what displays in the mod selection menu
+author: "me"
+description: "A simple mod. adds simple but better blocks
+version: "1"
+minGameVersion: "103"

@@ -1,0 +1,20 @@
+name: 5x5 Drill
+description: A very large drill.
+type: Drill
+size: 5
+tier: 3
+drillTime: 250
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  titanium/80
+  lead/150
+  graphite/20
+]
+category: production
+research: laser-drill
